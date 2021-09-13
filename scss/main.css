@@ -192,14 +192,41 @@ main .container-services .container .col .card .card-body {
 }
 main .container-services .container .col .card .card-body h5 {
   text-align: center;
-  color: var(--bs-danger);
 }
 main .container-services .container .col .card .card-body p.card-text {
   align-items: left;
 }
-main .container-services .container .col .card .card-body svg {
-  width: 50px;
-  height: 50px;
+main .container-services .container .col .card .card-body img {
+  width: 90px;
+  height: 90px;
+  filter: invert(100%);
+}
+main .dishes {
+  width: 100%;
+  height: 110vh;
+  padding: 0 150px;
+  margin: 8px auto;
+  display: grid;
+  grid-template-columns: 25% 25% auto;
+  grid-template-rows: 190px 150px 190px 150px;
+  row-gap: 8px;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+}
+main .dishes .item {
+  border: 1px solid blue;
+}
+main .dishes .item1, main .dishes .item5, main .dishes .item7 {
+  grid-column: 1/span 2;
+}
+main .dishes .item2 {
+  grid-column: 3;
+  grid-row: 1/span 2;
+}
+main .dishes .item6 {
+  grid-column: 3;
+  grid-row: 3/span 4;
+  height: 348px;
 }
 
 /* Customizar as classes *//*# sourceMappingURL=main.css.map */
