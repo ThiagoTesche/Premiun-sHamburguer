@@ -1,0 +1,176 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    padding: 0;
+    background-color: var(--title-normal);
+    color: #ffff;
+
+    .navbar-brand{
+        img{
+            filter: invert(100%);
+            margin-left: 30px; 
+        }
+    }
+    
+    .nav{
+        padding: 5px 0;
+        .nav-link {color: #FFFFFF;}
+        .nav-link:hover {color: var(--bg-color-amareloEscuro);}
+    }
+}
+
+main{
+   
+    .container-fluid{
+        padding: 0;
+        margin: 0;
+    
+        .card{
+            width: 100%;
+            border: none;
+
+            .card-img {
+                border-radius: 0;
+                height: 100vh;
+            }
+
+            .card-img-overlay{
+                @include fonte;
+                vertical-align: middle;
+                align-items: center;
+                text-align: center;
+                h5{
+                    font-size: 6em;
+                    text-shadow: 1px 1px 1px black;
+                    font-style: italic;
+                }
+            }
+        }
+    }    
+
+    .presentation{
+        background-color: var(--bg-color-amareloEscuro);
+    
+        .container{
+            padding-top: 60px;
+            .row{
+                margin: 0 auto;
+                .col{
+                    text-align: center;
+                    padding-left: 0;
+                    @include fonte;
+                    text-align: left;
+                    color: white;
+                    
+                    img.img-fluid {
+                        margin-top: 30px;
+                        height: 115vh;
+                        border: 3px solid white;
+                        box-shadow: 1px 1px 1px white;
+                        border-radius: 5px;
+                    }
+
+                    img.img-thumbnail{
+                        width: 60%;
+                        height: 80vh;
+                    }
+
+                    
+
+                    p{
+                        text-align: justify;
+                        margin-right: 40px;
+                    }
+
+                    .box{
+                        background-color: var(--title-normal);
+                        border: 1px solid white;
+                        z-index: 1;
+                        width: 60%;
+                        height: auto;
+                        position: relative;
+                        top: -30%;
+                        left: 60%;
+
+                        P{
+                            text-align: center;
+                            margin-top: 11px;
+                            text-shadow: 1px 1px 1px black;
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .container-services{
+        background-color: var(--bs-dark);
+        height: 100vh;
+        color: white;
+        margin: 0 auto;
+        text-align: center;
+
+        h3{
+            @include DeliciousFonte;
+            font-style: italic;
+            color: var(--bg-color-sertao);
+            text-shadow: 1px 1px 1px white;
+            padding-top: 5%;
+            font-size: 2.5em;
+        }
+
+        h1{
+            @include fonte;
+            font-style: italic;
+            font-size: 4em;
+            text-decoration: overline;
+            margin-top: 20px;
+        }
+
+        .container{
+            margin-top: 8%;
+
+            .col{
+                align-items: center;
+                .card{
+                    background-color: var(--bs-dark);
+                    border: none;
+                    text-align: center;
+                    padding: 0;
+                    margin: 0;
+                    .card-body{
+                        margin-left: 15%;
+
+                        h5{
+                            text-align: center;
+                        }
+                        p.card-text{
+                            align-items: left;
+                        }
+
+                        svg{
+                            width: 50px;
+                            height: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }   
+}
+
+
+
+
+
+
+
+
+
+

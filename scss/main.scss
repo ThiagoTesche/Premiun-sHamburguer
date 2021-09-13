@@ -1,0 +1,5 @@
+@import url(bootstrap.min.css);
+@import '_config.scss'; /* Usar o --root: .*/
+@import '_global.scss'; /* Classes que serão utilizadas várias vezes */
+@import '_custom.scss'; /* Customizar as classes */
+@import '_responsive.scss';
