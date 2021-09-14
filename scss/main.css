@@ -289,4 +289,17 @@
   padding: 0 0.5em;
 }
 
+footer {
+  background-color: var(--bs-dark);
+  height: 40px;
+  color: white;
+  margin-top: 50px;
+  vertical-align: middle;
+}
+footer h2 {
+  text-align: center;
+  font-size: 0.8em;
+  padding-top: 10px;
+}
+
 /* Customizar as classes *//*# sourceMappingURL=main.css.map */
