@@ -8,6 +8,9 @@
 
 @mixin DeliciousFonte(){
     font-family: 'Lobster', cursive;
+    color: var(--bg-color-vermelho);
+    font-style: italic;
+    font-size: 1.4em;
 }
 
 @mixin cor(){
