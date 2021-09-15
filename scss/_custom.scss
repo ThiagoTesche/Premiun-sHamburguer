@@ -25,7 +25,6 @@
 }
 
 
-   
 .container-fluid{
     padding: 0;
     margin: 0;
@@ -48,39 +47,35 @@
                 font-size: 6em;
                 text-shadow: 1px 1px 1px black;
                 font-style: italic;
+                margin-top: 170px;
             }
         }
     }
 }    
 
 .presentation{
-    background-color: var(--bg-color-amareloEscuro);
+    background-image: url(https://i.pinimg.com/originals/c7/3b/02/c73b02ba37ce5a857b3a84668aa1f5dc.jpg);
+    background-attachment: fixed;
 
     .container{
         padding-top: 60px;
         .row{
             margin: 0 auto;
             .col{
-                text-align: center;
-                padding-left: 0;
-                @include fonte;
-                text-align: left;
-                color: white;
                 
                 img.img-fluid {
                     margin-top: 30px;
-                    height: 115vh;
-                    border: 3px solid white;
-                    box-shadow: 1px 1px 1px white;
+                    height: 100vh;
+                    border: 3px solid var(--bs-gray-100);
+                    box-shadow: 1px 1px 1px var(--bs-gray-100);
                     border-radius: 5px;
                 }
 
                 img.img-thumbnail{
                     width: 60%;
                     height: 80vh;
+                    margin-top: 26px;
                 }
-
-                
 
                 p{
                     text-align: justify;
@@ -89,7 +84,7 @@
 
                 .box{
                     background-color: var(--title-normal);
-                    border: 1px solid white;
+                    border: 1px solid var(--bs-gray-100);
                     z-index: 1;
                     width: 60%;
                     height: auto;
@@ -102,6 +97,7 @@
                         margin-top: 11px;
                         text-shadow: 1px 1px 1px black;
                         margin-right: 0;
+                        color: whitesmoke;
                     }
                 }
             }
@@ -148,7 +144,7 @@
 
                 .card-body{
                     margin-left: 15%;
-
+                    border: 1px solid #cccc ;
                     h5{
                         text-align: center;
                         
@@ -233,6 +229,7 @@
     width: 100%;
     display: block;
     margin: 0 auto;
+    margin-top: 40px;
     align-items: center;
 
     h3{
